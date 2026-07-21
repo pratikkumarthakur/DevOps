@@ -1,2 +1,11 @@
-Get to know about Server and it's types.
+* Get to know about Server and it's types.
+Server is a computer(or system) that provides services, resources, or data to other computers called clients over a network.
+
+Types:- 
+Physical Server - is a real hardware machines located in data centre. It has it's own CPU , RAM , Storage and network components and is typically designed
+to run continuously.
+Virtual Server- A virtual software is software-based server that runs on the top of physical server using a hypervisor.
+
+
 Also learnt about what is hypervisor and it's importance.
+It is a technology that allows multiple VM's to run on a single physical server by sharing it's hardware resources through a hypervisor.
