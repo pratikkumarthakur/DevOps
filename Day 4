@@ -1,0 +1,14 @@
+Learnt about AWS EC2 instances and Scripts:-
+
+AWS EC2 (Elastic Compute Cloud) instances are scalable virtual servers in the cloud that allow you to rent computing 
+capacity with full root control. 
+They provide a pay-as-you-go pricing model and support multiple operating systems like Linux, Windows, and macOS.
+
+Scripts:- 
+
+Scripts in DevOps serve as the glue that automates manual, repetitive tasks across development, infrastructure, 
+testing, and deployment workflows. 
+Instead of executing commands one by one, engineers bundle them into code to achieve speed, consistency, and scale.
+
+Also, Scripts has to make an API call with AWS with a request that is matching all this criteria that is valid, authenticated , 
+and authorized and as a output for the script you will get an EC2 instances.
