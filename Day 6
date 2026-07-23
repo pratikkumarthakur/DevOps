@@ -1,0 +1,71 @@
+Learnt about Linux Operating System , it's Architecture and some important shell commands.
+
+The Linux operating system architecture defines how different components of the system interact with each other to manage hardware resources, 
+run applications, and provide a stable and secure computing environment. 
+Linux follows a layered architecture, where each layer has a specific role and responsibility. 
+
+
+
+The main components of Linux operating system are: 
+
+Application 
+
+Shell 
+
+Kernel 
+
+Hardware 
+
+Utilities 
+
+Kernel 
+
+ 
+
+Kernel is the core component of the Linux operating system that sits between the hardware and user space, managing system resources and ensuring smooth communication between software and hardware. It controls how processes are executed, scheduled, and isolated to maintain system stability and security. 
+
+The kernel is responsible for: 
+
+Memory management – Allocates and manages system memory efficiently 
+
+Process management – Schedules processes and controls execution using queues 
+
+Resource allocation – Distributes CPU, memory, and I/O resources among processes 
+
+Device management – Controls hardware devices through device drivers 
+
+Application interaction – Acts as a bridge between applications and hardware 
+
+Security – Enforces access control and system-level security mechanisms 
+
+Types of Kernel 
+
+1. Monolithic Kernel 
+
+A Monolithic kernel Offers high performance due to direct communication between components, but the large kernel size makes it more complex and harder to maintain 
+
+All core operating system services such as process management, memory management, device drivers, and file systems run in kernel space, sharing the same memory 
+
+2. Microkernel 
+
+Only essential services like process scheduling and memory management run in kernel space, while other services execute in user space 
+
+Microkernel provides better security and modularity, but may suffer from performance overhead due to frequent inter-process communication 
+
+3. Exokernel 
+
+Exokernel exposes hardware resources directly to applications, allowing them to manage resources at a low level 
+
+Enables high flexibility and performance, but increases application complexity due to minimal abstraction provided by the kernel 
+
+4. Hybrid kernel 
+
+Combines features of monolithic and microkernel architectures, keeping critical services in kernel space while supporting modular components 
+
+Delivers balanced performance and flexibility, making it suitable for modern systems that require both speed and stability. 
+
+
+
+
+
+ 
