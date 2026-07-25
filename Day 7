@@ -1,1 +1,16 @@
 Get detailed into Linux , Shell scripting and some bash commands.
+
+
+So, for automation process in Linux VMs , we need shell scripting. In other words shell scripting in linux is a process of automating 
+your day to day activities on your Linux computer , irrespective of AWS hosted Linux VM .
+
+
+
+Got to learnt about different executables of shell script, depending upon the kind of Linux machine that we are using.
+
+some of the examples of executables are:- bash , dash , sh , ksh. and each of them have their own syntax differences.
+
+most commonly used executable is bash.
+
+
+#!/bin/bash.
